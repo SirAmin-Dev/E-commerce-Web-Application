@@ -8,7 +8,7 @@ const roboto = Roboto({ subsets: ["latin"], weight: ['400']});
 
 export const metadata = {
   title: "Create E-commerce web application",
-  description: "Sale topics in html, css, JavaScript, React, Typescript",
+  description: "Sale topics in html, css, JavaScript, React,",
 };
 
 export default function RootLayout({ children }) {
@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
      
       <body className={roboto.className}>
         <div className="min-h-screen">
-      <Navbar />
+      {/* <Navbar /> */}
         {children}
         </div>
 
